@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Sverre Kristian</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">Om</a>
+            </li>
+
+            <li>
+                <a href="#experience">Erfaring</a>
+            </li>
+
+            <li>
+                <a href="#projects">Prosjektar</a>
+            </li>
+
+            <li>
+                <a href="#contact">Kontakt</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/SverreK" class="visit-btn" target="_blank">Besøk Github</a>
+
+    </header>
+
+<section id="about" class="about">
+    <div class="about-container">
+        <img src="image.jpg" alt="">
+
+        <div class="info-box">
+
+            <div class="text">
+                <h3>Hei. Mitt namn er</h3>
+                <h1>Sverre Kristian</h1>
+                <span>Data Science Student</span>
+            </div>
+
+            <div class="btn-group">
+                 <div class="btn">Last ned CV</div>
+                 <a href="#contact" class="btn">Kontakt</a>
+            </div>
+
+            <div class="socials">
+                 <a href="https://github.com/SverreK" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sverre-kristian-thune-5a76a6342/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+
+         </div>
+    </div>
+</section>
+
+<section id="experience" class="experience">
+
+    <h2 class="section-title">Erfaringar</h2>
+
+    <div class="experience-info">
+
+        <div class="grid">
+            <div class="grid-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Programmering og Programvareutvikling</span>
+                <h3>Python - Java - OOP</h3>
+                <p>Utvikle programvare i Python og Java med fokus på strukturert kode, OOP og MVC-basert arkitektur</p>
+            </div>
+
+            <div class="grid-card">
+                <i class="fa-solid fa-chart-column"></i>
+                <span>Data Science og Maskinlæring</span>
+                <h3>Python - Pandas - Scikit</h3>
+                <p>Rydde, analysere og visualisere data, samt trene og evaluere ulike maskinlæringsmodellar</p>
+            </div>
+
+            <div class="grid-card">
+                <i class="fa-solid fa-chart-diagram"></i>
+                <span>Algortimar og Datastrukturar</span>
+                <h3>Sortering - Søk - Kompleksitet</h3>
+                <p>Bruke klassiske algoritmar og datastrukturar til å skrive effektiv og optimalisert kode i Java</p>
+            </div>
+
+            <div class="grid-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>IT-sikkerheit</span>
+                <h3>Kryptografi - Autentisering - Integritet</h3>
+                <p>Forstå grunnleggande prinsipp innan kryptografi, autentisering og dataintegritet</p>
+            </div>
+        </div>
+
+        <img src="image.jpg" alt="">
+    </div>
+</section>
+
+<section id="projects" class="projects">
+
+    <h2 class="section-title">Nylige Prosjektar</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <i class="fa-brands fa-space-awesome fa-4x"></i>
+                <h3>Space Invaders</h3>
+                <p>Ein replika av det klassiske arcade-spelet Space Invaders, utvikla i Java ved bruk av OOP og MVC-arkitektur.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/SverreK/Semesteroppgave_Space_Invaders" class="btn" target="_blank">Github repo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <i class="fa-solid fa-bicycle fa-4x"></i>
+                <h3>Prognostisering av Bergen BySykkel</h3>
+                <p>Prediksjon av talet på ledige bysyklar ved ulike stasjonar ved hjelp av ein maskinlæringsmodell trent på historiske data.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/SverreK/Prognostisering_Av_Bergen_Bysykkel" class="btn" target="_blank">Github repo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <form action="https://formspree.io/f/mzzwpggr" method="POST">
+                <h2 class="section-title">Kontakt meg</h2>
+
+                    <div class="input">
+                        <input type="text" name="First name" placeholder="First name">
+                    </div>
+
+                    <div class="input">
+                        <input type="text" name="Last name" placeholder="Last name">
+                    </div>
+
+                    <div class="input">
+                        <input type="email" name="Last name" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="input">
+                        <textarea rows="10" name="message" placeholder="Enter text"></textarea>
+                    </div>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2025 Sverre Kristian. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
