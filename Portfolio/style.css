@@ -253,7 +253,7 @@ section {
     gap: 1.5rem;
     border: 2px solid black;
     border-radius: 3rem;
-    cursor: pointer;
+
     transition: 0.3s ease-in-out;
 }
 .project-card:hover {
